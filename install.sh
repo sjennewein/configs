@@ -5,7 +5,7 @@ sudo sed -E 's/main/main contrib non-free' /etc/apt/sources.list > /etc/apt/sour
 sudo mv /etc/apt/sources2.list /etc/apt/sources.list
 
 sudo apt-get update
-sudo apt-get install task-lxqt-desktop speedcrunch nmap tcpdump wireshark juffed juffed-plugins claws-mail breeze-icon-theme openbox evince pcmanfm-qt dirmngr qterminal
+sudo apt-get install task-lxqt-desktop speedcrunch nmap tcpdump wireshark juffed juffed-plugins claws-mail breeze-icon-theme openbox evince pcmanfm-qt dirmngr qterminal gvfs-backends gvfs-fuse
 
 wget --quiet https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg -i google-chrome-stable_current_amd64.deb
